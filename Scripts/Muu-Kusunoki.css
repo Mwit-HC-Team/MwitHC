@@ -256,7 +256,7 @@ button.input-signup{
 }
 .webserial-css{
     background-color: rgb(255, 255, 255);
-    padding: 150px;
+    padding: 50px;
     border-radius: 25px;        
     box-shadow: 10px 10px;
     color: black;   
@@ -296,8 +296,8 @@ button.input-signup{
 
 
 .webserial-css img {
-    flex: 0 0 15%;
-    width: 15% !important; 
+    flex: 0 0 50%;
+    width: 50% !important; 
     height: auto;
     max-width: 100%;
     align-self: center;
