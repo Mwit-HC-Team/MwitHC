@@ -258,8 +258,10 @@ if (signup_form)
         title: "Email Verification",
         name: user_val,
         email: email_val,
-        message: "Your wifi is HangerCounter_AI \n Your wifi password is 12345678 \n", //the solo version
-        href : "https://mwit-hc-team.github.io/MwitHC/MwitHC-Confirm.html" 
+        message: `Your wifi is HangerCounter_AI 
+        Your wifi password is 12345678 
+
+        Click here to confirm: https://mwit-hc-team.github.io/MwitHC/MwitHC-Confirm.html`        
         });
         alert("sign up form sent! please check your email for confirmation")
         window.location.replace("https://mwit-hc-team.github.io/MwitHC/MwitHC-Login.html",);
@@ -295,6 +297,14 @@ if (login_form)
                 alert("Welcome back " + user_log + " !")
                 window.location.replace("https://mwit-hc-team.github.io/MwitHC/MwitHC-Dashboard.html");
             }
+            else
+            {
+                alert("Incorrect name or password")
+            }
+        }
+        else
+        {
+            alert("account is not found, did you click the confirmation link yet")
         }
     }
 });
