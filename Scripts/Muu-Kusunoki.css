@@ -249,6 +249,10 @@ button.input-signup{
     background-image: url(/MwitHC/Scripts/Images/redirect.png);
     background-repeat: no-repeat;
     background-size: cover;
+
+    display: flex;
+    align-items: center;    
+    justify-content: center;
 }
 .webserial-css{
     background-color: rgb(255, 255, 255);
