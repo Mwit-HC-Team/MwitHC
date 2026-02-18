@@ -1,0 +1,148 @@
+.edit-info-css{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("/MwitHC/Scripts/Images/Mwit-Profile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#edit-info-form{
+    background-color: rgb(87, 82, 135);
+    padding: 100px;
+    border-radius: 25px;
+    box-shadow: 10px 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+#profile-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    margin-top: -50px;
+}
+.line-up{
+    display: flex;
+    justify-content: center;
+}
+.line-up input{
+    text-indent: 10px;
+    width: 300px;
+    background-color: azure;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.line-up button{
+    font-family: "Newsreader", Roboto;
+    font-size: 20px;
+    font-weight: 200;
+    background-color: rgb(224, 224, 138);
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+    height: 60px;
+    width: 200px;
+}
+
+.notification-css{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("/MwitHC/Scripts/Images/Mwit-Notification.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.notification-css button{
+    width: 30vw;
+    height: 15vh;
+    margin: 25px;
+    border-radius: 15px;
+    box-shadow: 10px 10px black;
+    font-family: "Newsreader", Roboto;
+    font-size: 20px;
+    text-align: left;
+    text-indent: 25px;
+}
+
+.contact-css{
+    background-color: rgb(11, 11, 11);
+    color: white;
+    font-family: "Newsreader", Roboto;
+
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    margin: 50px;
+    gap: 200px;
+}
+.left-css{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.right-css{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-right: -150px;
+}
+.contact-css h1{
+    font-size: 50px;
+}
+.contact-css textarea{
+    font-family: "Newsreader", Roboto;
+    background-color: rgb(137, 137, 137);
+    color: white;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 15px;
+    width: 50vw;
+    height: 30vh;
+}
+.contact-css button{
+    background-color: rgb(86, 86, 86);
+    box-shadow: 5px 5px white;
+    margin-top: 50px;
+    border-radius: 5px;
+    width: 50vw;
+    height: 5vh;
+}
+.contact-css b{
+    margin-top: 25px;
+    font-size: 25px;
+}
+.contact-css p{
+    font-size: 15px;
+}
+
+.regulations-css{
+    background-image: url("/MwitHC/Scripts/Images/Mwit-Profile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reg-css{
+    background-color: rgb(216, 213, 117);
+    padding: 100px;
+    border-radius: 15px;
+    padding-bottom: 60vh;
+}
+.reg-css button{
+    width: 50vw;
+    height: 10vh;
+
+}

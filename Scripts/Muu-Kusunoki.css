@@ -1,0 +1,252 @@
+.sign-up-page{
+    background-image: url("/MwitHC/Scripts/Images/Mwit-Signup.png");
+    background-color: #ffffff;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    box-shadow: black;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 175px;
+}
+h1.input-signup{
+    color: #ffffff;
+    text-indent: 10px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-family: "Newsreader", Roboto;
+    font-weight: 500;
+    text-align: left;
+}
+input.input-signup{
+    font-family: "Newsreader", Roboto;
+    font-weight: 200;
+    text-align: left;
+    text-indent: 20px;
+    margin-top: 30px;
+    border-radius: 40px;
+    height: 50px;
+}
+button.input-signup{
+    margin-top: 75px;
+    border-radius: 25px;
+    width: 150px;
+    height: 50px;
+}
+
+.login-css{
+    background-image: url("/MwitHC/Scripts/Images/Mwit-Login.jpg");
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: 75vw 100vh;
+    box-shadow: black;
+    padding: 20px;
+}
+.login-form{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: #2d2d2d;
+    width: 75vw;
+    height: 75vh;
+    margin-left: 250px;
+    margin-top: 50px;
+    box-shadow: 5px 10px;
+    border-radius: 50px;
+}
+.login-content{
+    font-family: "Newsreader", Roboto;
+    padding: 75px;
+}
+.login-content h1{
+    color: white;
+    font-size: 50px;
+    margin-top: -50px;
+}
+.login-content h6{
+    color: grey;
+    margin-top: -25px;
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+.login-content input{
+    border-radius: 10px;
+    margin-bottom: 50px;
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+    text-indent: 25px;
+    font-family: "Newsreader", Roboto;
+}
+.login-button-css{
+    width: 300px;
+    height: 40px;
+    font-family: "Newsreader", Roboto;
+    border-radius: 5px;
+    background-color: rgb(74, 77, 121);
+    box-shadow: 5px 10px rgb(246, 246, 168);
+    color: white;
+    font-family: "Newsreader", Roboto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.confirm-bg{
+    background-image: url("/MwitHC/Scripts/Images/Mwit-Confirm.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+.confirm-css{
+    background-color: rgb(200, 200, 200);
+    padding: 200px;
+    border-radius: 25px;        
+    box-shadow: 10px 10px;
+    color: black;   
+    text-align: center;
+}
+.confirm-css h1{
+    margin-top: -150px;
+    font-family: "Newsreader", Roboto;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.dashboard-css{
+    background-image: url("/MwitHC/Scripts/Images/Mwit-Dashboard.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+#dashboard-h1{
+    margin-top: -5px;
+    margin-bottom: -20px;
+    text-align: left;
+    color: white;
+    font-family: "Newsreader", Roboto;
+    font-size: 50px;
+    -webkit-text-stroke: 1px rgb(83, 83, 83);
+}
+#info-button{
+    box-shadow: 10px 10px #2d2d2d;
+    width: 40vw;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    border: 5px solid #9d9d9d;
+    border-radius: 15px;
+    gap: 20px;
+}
+.text-info-css{
+    text-align: left;
+    line-height: 40px;
+    color: rebeccapurple;
+    font-family: "Newsreader", Roboto;
+    font-size: 15px;
+    margin-left: 200px;
+}
+#profile-image{
+    border-radius: 50%;
+    position: relative;
+    left: 150px;
+    width: 100px !important;
+    height: 100px !important;
+    object-fit: cover;
+}
+.float-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 25px;
+}
+.history-css button{
+    box-shadow: 10px 10px #2d2d2d;
+    width: 15vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #9d9d9d;
+    border-radius: 15px;
+    gap: 25px;
+}
+.history-css b1{
+    font-family: "Newsreader", Roboto;
+    font-size: 30px;
+}
+.history-css i{
+    font-size: 50px;
+}
+.profile-css button{
+    box-shadow: 10px 10px #2d2d2d;
+    width: 15vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #9d9d9d;
+    border-radius: 15px;
+    gap: 25px;
+}
+.profile-css b1{
+    font-family: "Newsreader", Roboto;
+    font-size: 30px;
+}
+.profile-css i{
+    font-size: 50px;
+}
+.float-right{
+    display: flex;
+    justify-content: right;
+    gap: 25px;
+}
+.notification-css button{
+    box-shadow: 10px 10px #2d2d2d;
+    width: 15vw;
+    height: 53vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #9d9d9d;
+    border-radius: 15px;
+    gap: 25px;
+}
+.notification-css b1{
+    font-family: "Newsreader", Roboto;
+    font-size: 30px;
+}
+.notification-css i{
+    font-size: 50px;
+}
+.bottom-css{
+    display: flex;
+    gap: 10vw;
+
+}
+
+.webserial-bg{
+    display: flex;
+    background-image: url(/MwitHC/Scripts/Images/redirect.png);
+    background-repeat: no-repeat;
+}

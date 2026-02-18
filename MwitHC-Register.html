@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="/MwitHC/Scripts/Muu-Kusunoki.css">
+        <script src="/MwitHC/Scripts/Rei-Kuraki.js" defer></script>
+        <title>Register</title>        
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+            (function(){
+            emailjs.init({
+                publicKey: "vTCLQZ4fqNscTa6nQ",
+            });
+            })();
+        </script>
+    </head>
+    <body class="sign-up-page">
+        <form id="signup-form">
+                <h1 class="input-signup">Register</h1>
+                <div>
+                    <input type="text" class="input-signup" id="username" name="username" type="text" required size="50" placeholder="Username"><br>
+                </div>
+                <div>
+                    <input type="email" class="input-signup" id="email" name="email" type="email" required size="50" placeholder="Email Address"><br>
+                </div>
+                <div>
+                    <input type="text" class="input-signup" id="password" name="password" type="text" required size="50" placeholder="Password"><br>
+                </div>
+                <div class="container">
+                    <button class="input-signup" type="submit">SignUp</button>
+                </div>
+        </form>
+        <script>
+        </script>
+
+    </body>
