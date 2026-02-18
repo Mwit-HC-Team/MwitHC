@@ -296,8 +296,10 @@ button.input-signup{
 
 
 .webserial img {
+    flex: 0 0 15%;
     width: 15% !important; 
     height: auto;
     max-width: 100%;
+    align-self: center;
     border-radius: 8px;
 }
