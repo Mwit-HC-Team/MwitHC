@@ -244,9 +244,39 @@ button.input-signup{
     gap: 10vw;
 
 }
-
 .webserial-bg{
     display: flex;
     background-image: url(/MwitHC/Scripts/Images/redirect.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+    padding: 200px;
+    border-radius: 25px;        
+    box-shadow: 10px 10px;
+    color: black;   
+    text-align: center;
+}
+
+.webserial-bg h1{
+    margin-top: -150px;
+    font-family: "Newsreader", Roboto;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.webserial-bg p{
+    margin-top: -150px;
+    font-family: "Newsreader", Roboto;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.webserial-bg h{
+    margin-top: -150px;
+    font-family: "Newsreader", Roboto;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 50px;
 }
