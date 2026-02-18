@@ -27,7 +27,7 @@ const contact_us_btn = document.getElementById("contact-us-button")
 const contact_submit = document.getElementById("contact-submit")
 const contact_us_form = document.getElementById("contact-form")
 const contact_info = document.getElementById("textarea-form");
-const history_redirection = document.getElementById("webserial-btn")
+const history_redirection = document.getElementById("webserial-btn");
 
 (function() {
     emailjs.init("vTCLQZ4fqNscTa6nQ");
