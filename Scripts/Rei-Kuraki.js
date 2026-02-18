@@ -191,6 +191,7 @@ if (info_btn)
 
     notification_btn.addEventListener("click", notification_redirect)
     profile_btn.addEventListener("click", profile_redirect)
+    history_btn.addEventListener("click", history_redirect)
 
     //the profile hell
     const parsed_list = JSON.parse(window.localStorage.getItem("list"))
