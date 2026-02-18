@@ -293,3 +293,10 @@ button.input-signup{
     border-radius: 15px;
     gap: 25px;
 }
+
+
+.webserial img {
+    width: 15%; 
+    max-width: 100%;
+    border-radius: 8px;
+}
